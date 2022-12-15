@@ -12,11 +12,11 @@ const roboto = Roboto({
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
-      {/* <style jsx global>{`
+      <style jsx global>{`
         html {
           font-family: ${roboto.style.fontFamily};
         }
-      `}</style> */}
+      `}</style>
       <main>
         <Component {...pageProps} />
       </main>
