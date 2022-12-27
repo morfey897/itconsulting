@@ -13,12 +13,13 @@ export async function getServerSideProps() {
     someJson: 'str',
     test: 1,
     getServerSideProps: 'getServerSideProps',
-    
+
   } } }
 }
 
-function HomePage({ data }) {
-  return <div className={style.text}>Welcome to Next.js!: {JSON.stringify(data)}</div>
+function HomePage(props) {
+  console.log('PROPS', props);
+  return <div className={style.text}>Welcome to Next.js!</div>
 }
 
 export default HomePage;
