@@ -8,7 +8,7 @@ export async function getServerSideProps() {
   const res = await fetch('https://pokeapi.co/api/v2/pokemon/ditto')
   const data = await res.json();
   // Pass data to the page via props
-  return { props: { data } }
+  return { props: { data, 'test': 'test Feat PR' } }
 }
 
 function HomePage({ data }) {
