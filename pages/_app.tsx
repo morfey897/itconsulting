@@ -1,25 +1,11 @@
 
 import React from 'react';
-
-import { Roboto } from '@next/font/google';
-
-const roboto = Roboto({
-  weight: ['400', '700'],
-  style: ['normal', 'italic'],
-  subsets: ['latin'],
-})
+import "../styles/globals.css";
 
 export default function MyApp({ Component, pageProps }) {
   return (
-    <>
-      <style jsx global>{`
-        html {
-          font-family: ${roboto.style.fontFamily};
-        }
-      `}</style>
-      <main>
-        <Component {...pageProps} />
-      </main>
-    </>
+    <main className=''>
+      <Component {...pageProps} />
+    </main>
   )
 }

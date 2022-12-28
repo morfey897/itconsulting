@@ -1,6 +1,4 @@
 import React from "react"
-import style from "./index.module.scss";
-
 
 // This gets called on every request
 export async function getServerSideProps() {
@@ -12,7 +10,7 @@ export async function getServerSideProps() {
 }
 
 function HomePage({ data }) {
-  return <div className={style.text}>Welcome to Next.js!: {JSON.stringify(data)}</div>
+  return <div className={'text-blue-400'}>Welcome to Next.js!: {JSON.stringify(data)}</div>
 }
 
 export default HomePage;
