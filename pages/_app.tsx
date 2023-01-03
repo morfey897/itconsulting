@@ -6,7 +6,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <main className=''>
 
-        <div>123</div>
+        <div>12312312</div>
       <Component {...pageProps} />
     </main>
   )
