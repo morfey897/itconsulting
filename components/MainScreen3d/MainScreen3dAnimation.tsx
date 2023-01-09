@@ -1,7 +1,11 @@
 import React, { useRef, useState } from 'react';
 import { useFrame } from '@react-three/fiber';
 
-function MainScreen3dAnimation(props) {
+type MainScreen3dAnimationType = {
+  position: [number, number, number];
+};
+
+function MainScreen3dAnimation(props: MainScreen3dAnimationType) {
   // This reference gives us direct access to the THREE.Mesh object
   const ref = useRef();
   // Hold state for hovered and clicked events
