@@ -4,10 +4,6 @@
 
 ## Screenshots
 
-## Feature / bugfix
-- [ ] Feature
-- [ ] Bugfix
-
 ---
 
 ### Comments
