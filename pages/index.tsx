@@ -1,5 +1,5 @@
-import React from "react"
-import {MainScreen3d} from "../components/MainScreen3d";
+import React from 'react';
+import { MainScreen3d } from '../components/MainScreen3d';
 
 // This gets called on every request
 // export async function getServerSideProps() {
@@ -11,19 +11,19 @@ import {MainScreen3d} from "../components/MainScreen3d";
 // }
 
 export async function getStaticProps() {
-    return {props: {name: 123}}
+  return { props: { name: 123 } };
 }
 
-function HomePage({data}) {
-    return <div>
+function HomePage({ data }) {
+  return (
+    <div>
+      <MainScreen3d />
 
-        <MainScreen3d/>
-
-        <div className={'text-blue-400'}>
-            Welcome to Next.js!: {JSON.stringify(data)}
-        </div>
-
+      <div className={'text-blue-400'}>
+        Welcome to Next.js!: {JSON.stringify(data)}
+      </div>
     </div>
+  );
 }
 
 export default HomePage;
