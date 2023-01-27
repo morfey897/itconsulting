@@ -3,3 +3,14 @@
 .github
 node_modules
 public
+.eslintrc.json
+.prettierrc.json
+next-env.d.ts
+next.config.js
+package-lock.json
+package.json
+postcss.config.js
+README.md
+tailwind.config.js
+tsconfig.json
+
