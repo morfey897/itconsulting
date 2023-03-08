@@ -1,3 +1,3 @@
-import MainScreen3d from './MainScreen3d';
+import MainScreen3d from './MainScreen3dCanvas';
 
-export { MainScreen3d };
+export default MainScreen3d;
