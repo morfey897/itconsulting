@@ -28,6 +28,7 @@
   "dependencies": {
     "@next/font": "^13.0.6",
     "@react-hook/resize-observer": "^1.2.6",
+    "@react-three/drei": "^9.57.1",
     "@react-three/fiber": "^8.10.0",
     "clsx": "^1.2.1",
     "next": "^13.0.6",

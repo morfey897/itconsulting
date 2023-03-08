@@ -1,5 +1,6 @@
 import React from 'react';
 import dynamic from 'next/dynamic';
+// import MainScreen3d from '../components/MainScreen3d';
 
 const MainScreen3d = dynamic(() => import('../components/MainScreen3d'), {
   ssr: false,
